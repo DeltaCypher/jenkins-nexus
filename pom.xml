@@ -66,12 +66,31 @@
     </dependency>
   </dependencies>
    <distributionManagement>
-    <repository>
+    <snapshotRepository>
         <id>Demo-Project-Snapshot</id>
         <url>http://65.2.150.245:8081/repository/Demo-Project-Snapshot/</url>
-    </repository>    
+    </snapshotRepository>
+    <repository>
+  	<id>Demo-Project-Release</id>
+  	<url>http://65.2.150.245:8081/repository/Demo-Project-Release/</url>
+    <repository>
   </distributionManagement>
-        	
+
+  <repositories>
+    <repository>
+  		<id>Demo-Project-Group</id>
+  		<name>central</name>
+  		<url>http://65.2.150.245:8081/repository/Demo-Project-Group/</url>
+  	<releases>
+   		<enabled>true</enabled>
+  	</releases>
+
+  	<snapshots>
+   		<enabled>true</enabled>
+  	</snapshots>
+ </repository>
+</repositories>
+	
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>

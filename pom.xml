@@ -73,7 +73,7 @@
     <repository>
   	<id>Demo-Project-Release</id>
   	<url>http://65.2.150.245:8081/repository/Demo-Project-Release/</url>
-    <repository>
+    </repository>
   </distributionManagement>
 
   <repositories>

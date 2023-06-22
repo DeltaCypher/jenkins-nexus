@@ -74,15 +74,16 @@
         <id>Demo-Project-Release</id>
         <url>http://65.2.150.245:8081/repository/Demo-Project-Release/</url>
     </release>
-  </distributionManagement>
-
-  <repositories>
-        <repository>
+    <repository>
           <id>Demo-Project-Group</id>
           <name>Central</name>
           <url>http://65.2.150.245:8081/repository/Demo-Project-Group/</url>
-        </repository>
-   </repositories>	
+    </repository>	    
+	    
+  </distributionManagement>
+
+     
+   	
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>

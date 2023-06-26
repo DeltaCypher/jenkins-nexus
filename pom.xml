@@ -72,11 +72,11 @@
    <distributionManagement>
     <snapshotRepository>
         <id>Demo-Project-Snapshot</id>
-        <url>http://13.233.98.17:8081/repository/Demo-Project-Snapshot/</url>
+        <url>http://3.111.32.200:8081/repository/Demo-Project-Snapshot/</url>
     </snapshotRepository>
     <repository>
   	<id>Demo-Project-Release</id>
-  	<url>http://13.233.98.17:8081/repository/Demo-Project-Release/</url>
+  	<url>http://3.111.32.200:8081/repository/Demo-Project-Release/</url>
     </repository>
   </distributionManagement>
 
@@ -84,7 +84,7 @@
     <repository>
   		<id>Demo-Project-Group</id>
   		<name>central</name>
-  		<url>http://13.233.98.17:8081/repository/Demo-Project-Group/</url>
+  		<url>http://3.111.32.200:8081/repository/Demo-Project-Group/</url>
   	<releases>
    		<enabled>true</enabled>
   	</releases>
